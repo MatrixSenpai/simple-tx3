@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <h1 id="title">Tic Tac Toe</h1>
+        <h3 id="status">Next Player: <span id="player">X</span></h3>
+
+        <div id="board">
+            <div class="board-row">
+                <button class="square" onclick="cellClicked(0)" data-id="0"></button>
+                <button class="square" onclick="cellClicked(1)" data-id="1"></button>
+                <button class="square" onclick="cellClicked(2)" data-id="2"></button>
+            </div>
+            <div class="board-row">
+                <button class="square" onclick="cellClicked(3)" data-id="3"></button>
+                <button class="square" onclick="cellClicked(4)" data-id="4"></button>
+                <button class="square" onclick="cellClicked(5)" data-id="5"></button>
+            </div>
+            <div class="board-row">
+                <button class="square" onclick="cellClicked(6)" data-id="6"></button>
+                <button class="square" onclick="cellClicked(7)" data-id="7"></button>
+                <button class="square" onclick="cellClicked(8)" data-id="8"></button>
+            </div>
+        </div>
+
+        <script rel="script" src="main.js"></script>
+    </body>
+</html>
